@@ -65,39 +65,39 @@
 # many projects, common resources.
 
 !SLIDE incremental bullets
-# <a href="http://springsource.org">springsource.org</a>
+# [springsource.org](http://springsource.org)
 * completely redesigned
 
 !SLIDE incremental bullets
 # issue tracking
-* <a href="http://jira.springsource.org">jira.springsource.org</a>
+* [jira.springsource.org](http://jira.springsource.org)
 
 !SLIDE small incremental bullets
 # source control
-* <a href="http://http://fisheye.springsource.org">fisheye.springsource.org</a>
+* [http://fisheye.springsource.org](http://fisheye.springsource.org)
 * Subversion, e.g
-* <a href="http://src.springframework.org/svn/spring-framework">http://src.springframework.org/svn/spring-framework</a>
-* Git <a href="http://git.springsource.org">http://git.springsource.org</a>
-* GitHub <a href="http://github.com/SpringSource">http://github.com/SpringSource</a>
+* [http://src.springframework.org/svn/spring-framework](http://src.springframework.org/svn/spring-framework)
+* Git [http://git.springsource.org](http://git.springsource.org)
+* GitHub [http://github.com/SpringSource](http://github.com/SpringSource)
 
 !SLIDE incremental bullets
 # continuous integration
-* <a href="https://build.springsource.org">https://build.springsource.org</a>
+* [build.springsource.org](https://build.springsource.org)
 
 !SLIDE incremental bullets
 # quality control
-* <a href="https://sonar.springsource.org">https://sonar.springsource.org</a>
+* [sonar.springsource.org](https://sonar.springsource.org)
 
 !SLIDE incremental bullets
 # artifact management
 * Maven Central
-* <a href="http://search.maven.org">http://search.maven.org</a>
+* [search.maven.org](http://search.maven.org)
 * SpringSource S3 maven repositories
 * (more on all that in a bit)
 
 !SLIDE incremental bullets
 # forums
-* <a href="http://forum.springsource.org">http://forum.springsource.org</a>
+* [forum.springsource.org](http://forum.springsource.org)
 
 !SLIDE
 # how we manage our projects
@@ -153,7 +153,7 @@
 
 !SLIDE incremental bullets
 # Managing SPR JIRA
-* <a href="https://jira.springsource.org/browse/SPR">https://jira.springsource.org/browse/SPR</a>
+* [https://jira.springsource.org/browse/SPR](https://jira.springsource.org/browse/SPR)
 * 8800+ issues
 * Daily triage
 * Backlog versions
@@ -165,8 +165,111 @@
 
 
 !SLIDE subsection
-# many ways to get involved
+# ways to get involved
 
+!SLIDE incremental bullets
+# ways to get involved
+* Use the projects!
+* Report issues
+* Help other users
+* Track and test latest features
+* Participate in user groups
+* Contribute code and other fixes
+
+!SLIDE incremental bullets
+# first things first
+* using Spring projects
+
+!SLIDE incremental bullets
+# quick start
+* (for the impatient)
+
+!SLIDE subsection bullets
+# demo
+* STS template projects
+
+!SLIDE bullets
+# read the documentation
+* [http://www.springsource.org/documentation](http://www.springsource.org/documentation)
+
+!SLIDE small bullets incremental
+# grab the artifacts
+* via distribution zips [http://www.springsource.com/download/community](http://www.springsource.com/download/community)
+* via Maven Central (preferred) [http://search.maven.org](http://search.maven.org)
+
+!SLIDE bullets incremental
+# learn from samples and reference applications
+
+!SLIDE bullets
+# samples
+* [http://www.springsource.org/samples](http://www.springsource.org/samples)
+
+!SLIDE small bullets incremental
+# reference applications
+* greenhouse
+* live app [http://greenhouse.springsource.org](http://greenhouse.springsource.org)
+* home [http://www.springsource.org/greenhouse](http://www.springsource.org/greenhouse)
+* code [https://github.com/SpringSource/greenhouse](https://github.com/SpringSource/greenhouse)
+
+!SLIDE bullets incremental
+# Spring Roo
+* [http://www.springsource.org/spring-roo](http://www.springsource.org/spring-roo)
+* rapid application development
+* Spring best practices built in
+
+!SLIDE bullets incremental
+# tutorials
+* [http://www.springsource.org/tutorials](http://www.springsource.org/tutorials)
+
+!SLIDE
+# stay informed
+
+!SLIDE bullets incremental
+# blogs
+* team blog [http://blog.springsource.org](http://blog.springsource.org)
+* news feed [http://springsource.org](http://springsource.org)
+* RSS for both
+
+!SLIDE smaller bullets
+# newsletter
+* [http://www.springsource.com/newsevents/newsletter-registration](http://www.springsource.com/newsevents/newsletter-registration)
+
+!SLIDE bullets incremental
+# Twitter
+* [http://twitter.com/springsource](http://twitter.com/springsource)
+* [http://twitter.com/springsource/projects](http://twitter.com/springsource/projects)
+* [http://twitter.com/springsource/employees](http://twitter.com/springsource/employees)
+
+!SLIDE bullets incremental
+# Twitter
+* [http://twitter.com/springframework](http://twitter.com/springframework)
+* [http://twitter.com/springframework/team](http://twitter.com/springframework/team)
+
+
+!SLIDE
+# report issues
+
+!SLIDE bullets incremental
+# improvements & new features
+* share use cases
+* vote!
+
+!SLIDE bullets incremental
+# bugs
+* steps to reproduce are critcal
+* but reproduction _projects_ get you ♥
+
+!SLIDE bullets incremental
+# repro projects
+* simple as possible
+* self-contained
+* built with Maven or Gradle
+
+!SLIDE smaller incremental bullets
+# `spring-framework-issues`
+* [https://github.com/SpringSource/spring-framework-issues](https://github.com/SpringSource/spring-framework-issues)
+* repro projects, streamlined
+* especially helpful for web application issues
 
 .notes ----------------------------
 
