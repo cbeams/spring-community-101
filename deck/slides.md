@@ -271,9 +271,225 @@
 * repro projects, streamlined
 * especially helpful for web application issues
 
+!SLIDE incremental bullets
+# help other users
+* (and get help when you need it too)
+
+!SLIDE incremental bullets
+# [forum.springsource.org](http://forum.springsource.org)
+* thousands of users
+* great way to build a presence in the community
+
+!SLIDE
+# [stackoverflow.com](http://stackoverflow.com)
+
+!SLIDE center
+![stackoverflow-tags.png](stackoverflow-tags.png)
+
+!SLIDE
+# track and test the latest features
+
+!SLIDE bullets incremental
+# snapshots, milestones, RCs
+* http://maven.springframework.org/snapshot
+* http://maven.springframework.org/milestone
+* http://maven.springframework.org/release
+
+!SLIDE bullets incremental
+* all based on Amazon S3
+* resolvable from Maven
+* but not _browseable_
+* [http://shrub.appspot.com](http://shrub.appspot.com/maven.springframework.org/snapshot/)
+
+!SLIDE incremental bullets
+# participate in user groups
+* google for 'spring user group' in your area
+* java user groups often have spring content
+* if they don&apos;t, consider giving a talk!
+* interested in starting a group?
+* contact `afitzgerald@vmware.com`
+
+!SLIDE
+# contribute code and other fixes
+
+!SLIDE incremental bullets
+# first: why contribute?
+* scratch your own itch
+* get to know Spring _really_ well
+* improve your skills
+* street cred, yo.
+
+!SLIDE subsection bullets
+# demo
+* contributor attribution in git projects
+
+!SLIDE incremental bullets
+# kinds of contribution
+* typo fixes, documentation, cosmetic
+* minor bug fixes and improvements
+* major stuff
+
+!SLIDE incremental bullets
+# how to do it
+* and what to expect
+
+!SLIDE incremental bullets
+# the small stuff
+* typo? doco?
+* just submit a patch or pull request
+* (we&apos;ll talk about pull requests shortly)
+
+!SLIDE
+# the bigger stuff
+
+!SLIDE incremental bullets
+# it&apos;s about communication
+* create/comment on the issue
+* express interest, start a conversation
+* discuss possible implementations
+* build trust
+
+!SLIDE smaller incremental bullets
+# study previous patches and pull requests
+* what kinds of submissions have been accepted before?
+* code quality, formatting, etc
+
+!SLIDE smaller subsection incremental bullets
+# demo
+* `spring-integration` pull requests
+* [https://github.com/SpringSource/spring-integration/pulls](https://github.com/SpringSource/spring-integration/pulls)
+* [https://github.com/SpringSource/spring-integration/pull/153](https://github.com/SpringSource/spring-integration/pull/153)
+
+!SLIDE incremental commandline
+# grab the source
+    $ svn checkout https://github.com/cbeams/spring-framework.git
+    ...
+
+    $ git clone https://github.com/cbeams/spring-framework.git
+    ...
+
+!SLIDE
+# git `||` svn
+<br/><br/>
+<br/><br/>
+<br/><br/>
+<br/><br/>
+<br/><br/>
+<br/><br/>
+<br/><br/>
+<br/><br/>
+<br/><br/>
+<br/><br/>
+<br/>
+
+!SLIDE incremental bullets transition=fade
+# git `&&` svn
+* GitHub supports both!
+* [https://github.com/blog/966-improved-subversion-client-support](https://github.com/blog/966-improved-subversion-client-support)
+* your choice
+
+!SLIDE incremental bullets
+# look at the commit log
+* plan to emulate it
+
+!SLIDE small subsection incremental bullets
+# demo
+* `spring-framework` commit log
+* [http://progit.org/book/ch5-2.html#commit_guidelines](http://progit.org/book/ch5-2.html#commit_guidelines)
+
+!SLIDE small incremental bullets
+# get to know the project build system
+* Ant ("spring-build")
+* Gradle ("spring-build-gradle")
+* Maven (individual to each project)
+* S2 team blog: [building Spring 3](http://blog.springsource.com/2009/03/03/building-spring-3/)
+
+!SLIDE small incremental bullets
+# give it a shot!
+* stay in communication with project team
+* not every contribution will necessarily make it
+* process should be rewarding in any case
+
+!SLIDE small incremental bullets
+# _(and don&apos;t forget tests!)_
+
+!SLIDE incremental bullets
+# in any case
+* expect your code to be changed
+
+!SLIDE center incremental bullets
+# "Juergenization"
+* ![juergenization_1.png](juergenization_1.png)
+* ![juergenization_2.png](juergenization_2.png)
+
+!SLIDE small incremental bullets
+# legal stuff
+* You may be asked to sign our CLA
+* SpringSource [Contributor License Agreement](https://support.springsource.com/spring_committer_signup)
+
+!SLIDE small incremental bullets
+# contributing through external projects
+* Example: Spring Social core & Spring Social Foursquare
+* [https://github.com/springsource/spring-social](https://github.com/springsource/spring-social)
+* [https://github.com/mattupstate/spring-social-foursquare](https://github.com/springsource/spring-social
+https://github.com/mattupstate/spring-social-foursquare)
+
 .notes ----------------------------
+
 
 
 !SLIDE subsection incremental bullets
 # sneak preview
 * getting involved 2.0
+
+!SLIDE incremental bullets
+# source control improvements
+* everything on GitHub
+
+!SLIDE
+# pull requests are...
+
+!SLIDE
+# the new patch
+
+!SLIDE
+# the new code review
+
+!SLIDE subsection bullets
+# demo
+* pull request / fork and edit
+
+!SLIDE bullets incremental
+# next steps
+* complete the migration of projects
+* `spring-framework` post 3.1 GA
+* only a few remaining after that
+
+!SLIDE smaller bullets incremental
+# integrate pull requests into our JIRA workflow
+* [http://seam-framework.2283336.n4.nabble.com/git-pull-request-JIRA-workflow-td3272708.html](http://seam-framework.2283336.n4.nabble.com/git-pull-request-JIRA-workflow-td3272708.html)
+* [http://community.jboss.org/wiki/GuideToUsePullRequestsWithGitHubAndJIRA](http://community.jboss.org/wiki/GuideToUsePullRequestsWithGitHubAndJIRA)
+
+!SLIDE bullets incremental
+# improved artifact management
+* Artifactory
+* [http://repo.springsource.org](http://repo.springsource.org)
+
+!SLIDE subsection bullets incremental
+# demo: repo.springsource.org
+* unified search
+* put a watch on anytihng
+* license information
+* transitive resolution
+* migration path from s3 repos
+
+!SLIDE bullets incremental
+# streamline CLA process
+* deep integration via GitHub hooks API
+* CLA database
+* revised CLA agreement, web-only form
+
+!SLIDE subsection bullets
+# Thanks!
+* <a href="http://twitter.com/cbeams">`@cbeams`</a>
+* this presentation on the web: <a href="http://cbeams.github.com/spring-community-101">http://cbeams.github.com/spring-community-101</a>
