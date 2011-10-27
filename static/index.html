@@ -1,0 +1,772 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  <title>Getting Involved with Spring 101</title>
+
+  <meta name="viewport" content="width=device-width"/>
+
+  <link rel="stylesheet" href="./css/reset.css" type="text/css"/>
+  <link rel="stylesheet" href="./css/showoff.css" type="text/css"/>
+
+  <script type="text/javascript" src="./js/jquery-1.4.2.min.js"></script>
+  <script type="text/javascript" src="./js/jquery.cycle.all.js"></script>
+	<script type="text/javascript" src="./js/jquery-print.js"></script>
+  <script type="text/javascript" src="./js/jquery.batchImageLoad.js"></script>
+
+  <script type="text/javascript" src="./js/jquery.doubletap-0.1.js"></script>
+
+  <script type="text/javascript" src="./js/fg.menu.js"></script>
+  <script type="text/javascript" src="./js/showoff.js"></script>
+  <script type="text/javascript" src="./js/jTypeWriter.js"> </script>
+  <script type="text/javascript" src="./js/sh_main.min.js"></script>
+  <script type="text/javascript" src="./js/core.js"></script>
+  <script type="text/javascript" src="./js/showoffcore.js"></script>
+  <script type="text/javascript" src="./js/coffee-script.js"></script>
+
+  <link type="text/css" href="./css/fg.menu.css" media="screen" rel="stylesheet" />
+  <link type="text/css" href="./css/theme/ui.all.css" media="screen" rel="stylesheet" />
+  <link type="text/css" href="./css/sh_style.css" rel="stylesheet" >
+
+  
+
+  
+
+  <script type="text/javascript">
+  $(function(){
+      setupPreso(false, './');
+  });
+  </script>
+
+</head>
+
+<body>
+
+<a tabindex="0" href="#search-engines" class="fg-button fg-button-icon-right ui-widget ui-state-default ui-corner-all" id="navmenu"><span class="ui-icon ui-icon-triangle-1-s"></span>slides</a>
+<div id="navigation" class="hidden"></div>
+
+<div id="help">
+  <table>
+    <tr><td class="key">z, ?</td><td>toggle help (this)</td></tr>
+    <tr><td class="key">space, &rarr;</td><td>next slide</td></tr>
+    <tr><td class="key">shift-space, &larr;</td><td>previous slide</td></tr>
+    <tr><td class="key">d</td><td>toggle debug mode</td></tr>
+    <tr><td class="key">## &lt;ret&gt;</td><td>go to slide #</td></tr>
+    <tr><td class="key">c, t</td><td>table of contents (vi)</td></tr>
+    <tr><td class="key">f</td><td>toggle footer</td></tr>
+    <tr><td class="key">r</td><td>reload slides</td></tr>
+    <tr><td class="key">n</td><td>toggle notes</td></tr>
+    <tr><td class="key">p</td><td>run preshow</td></tr>
+  </table>
+</div>
+
+<div class="buttonNav">
+  <input type="submit" onClick="prevStep();" value="prev"/>
+  <input type="submit" onClick="nextStep();" value="next"/>
+</div>
+
+<div id="preso">loading presentation...</div>
+<div id="footer">
+  <span id="slideInfo"></span>
+  <span id="debugInfo"></span>
+  <span id="notesInfo"></span>
+</div>
+
+<div id="slides" class="offscreen" style="display:none;">
+<div class="slide" data-transition="none">
+  <div class="content subsection" ref="deck/slides/1">
+<h1>Getting Involved with Spring <code>101</code></h1>
+
+<br><br>
+
+
+<h2>Chris Beams</h2>
+
+<h3><em>SpringSource, VMware</em></h3></br>
+</br>
+</div>
+</div><div class="slide" data-transition="none"><div class="content" ref="deck/slides/2">
+<h1>Hello!</h1></div>
+</div><div class="slide" data-transition="none"><div class="content incremental bullets" ref="deck/slides/3">
+<h1>Chris Beams</h1>
+
+<ul>
+<li>Committer, core Spring Framework</li>
+</ul>
+</div>
+</div><div class="slide" data-transition="none"><div class="content subsection bullets incremental" ref="deck/slides/4">
+<h1>goals</h1>
+
+<ul>
+<li>broad overview</li>
+<li>getting involved today</li>
+<li>sneak preview of next gen processes</li>
+</ul>
+</div>
+</div><div class="slide" data-transition="none"><div class="content subsection" ref="deck/slides/5">
+<h1>the spring landscape today</h1></div>
+</div><div class="slide" data-transition="none"><div class="content" ref="deck/slides/6">
+<h1>what is Spring?</h1></div>
+</div><div class="slide" data-transition="none"><div class="content" ref="deck/slides/7">
+<h1>a framework?</h1></div>
+</div><div class="slide" data-transition="none"><div class="content" ref="deck/slides/8">
+<h1>a collection of projects?</h1></div>
+</div><div class="slide" data-transition="none"><div class="content" ref="deck/slides/9">
+<h1>a community?</h1></div>
+</div><div class="slide" data-transition="none"><div class="content" ref="deck/slides/10">
+<h1>Yes.</h1></div>
+</div><div class="slide" data-transition="none"><div class="content" ref="deck/slides/11">
+<h1><code>spring-framework</code></h1></div>
+</div><div class="slide" data-transition="none"><div class="content smaller incremental bullets" ref="deck/slides/12">
+<ul>
+<li><code>spring-framework</code></li>
+<li><code>spring-integration</code></li>
+<li><code>spring-batch</code></li>
+<li><code>spring-data-*</code></li>
+<li><code>spring-roo</code></li>
+<li><code>spring-webflow</code></li>
+<li><code>spring-social</code></li>
+<li><code>spring-amqp</code></li>
+<li><code>spring-hadoop</code></li>
+</ul>
+</div>
+</div><div class="slide" data-transition="fade"><div class="content center" ref="deck/slides/13">
+<p><img src="./file/deck/github-list.png" alt="github-list.png"/></p></div>
+</div><div class="slide" data-transition="none"><div class="content incremental" ref="deck/slides/14">
+<h1>many projects, one goal:</h1></div>
+</div><div class="slide" data-transition="scrollLeft"><div class="content smaller incremental" ref="deck/slides/15">
+<h1>provide infrastructural support for enterprise applications</h1></div>
+</div><div class="slide" data-transition="none"><div class="content smaller" ref="deck/slides/16">
+<h1>(and there's a <em>lot</em> of infrastructure out there)</h1></div>
+</div><div class="slide" data-transition="none"><div class="content incremental" ref="deck/slides/17">
+<h1>many projects, common resources.</h1></div>
+</div><div class="slide" data-transition="none"><div class="content incremental bullets" ref="deck/slides/18">
+<h1><a href="http://springsource.org">springsource.org</a></h1>
+
+<ul>
+<li>completely redesigned</li>
+</ul>
+</div>
+</div><div class="slide" data-transition="none"><div class="content incremental bullets" ref="deck/slides/19">
+<h1>issue tracking</h1>
+
+<ul>
+<li><a href="http://jira.springsource.org">jira.springsource.org</a></li>
+</ul>
+</div>
+</div><div class="slide" data-transition="none"><div class="content small incremental bullets" ref="deck/slides/20">
+<h1>source control</h1>
+
+<ul>
+<li><a href="http://fisheye.springsource.org">http://fisheye.springsource.org</a></li>
+<li>Subversion, e.g</li>
+<li><a href="http://src.springframework.org/svn/spring-framework">http://src.springframework.org/svn/spring-framework</a></li>
+<li>Git <a href="http://git.springsource.org">http://git.springsource.org</a></li>
+<li>GitHub <a href="http://github.com/SpringSource">http://github.com/SpringSource</a></li>
+</ul>
+</div>
+</div><div class="slide" data-transition="none"><div class="content incremental bullets" ref="deck/slides/21">
+<h1>continuous integration</h1>
+
+<ul>
+<li><a href="https://build.springsource.org">build.springsource.org</a></li>
+</ul>
+</div>
+</div><div class="slide" data-transition="none"><div class="content incremental bullets" ref="deck/slides/22">
+<h1>quality control</h1>
+
+<ul>
+<li><a href="https://sonar.springsource.org">sonar.springsource.org</a></li>
+</ul>
+</div>
+</div><div class="slide" data-transition="none"><div class="content incremental bullets" ref="deck/slides/23">
+<h1>artifact management</h1>
+
+<ul>
+<li>Maven Central</li>
+<li><a href="http://search.maven.org">search.maven.org</a></li>
+<li>SpringSource S3 maven repositories</li>
+<li>(more on all that in a bit)</li>
+</ul>
+</div>
+</div><div class="slide" data-transition="none"><div class="content incremental bullets" ref="deck/slides/24">
+<h1>forums</h1>
+
+<ul>
+<li><a href="http://forum.springsource.org">forum.springsource.org</a></li>
+</ul>
+</div>
+</div><div class="slide" data-transition="none"><div class="content" ref="deck/slides/25">
+<h1>how we manage our projects</h1></div>
+</div><div class="slide" data-transition="none"><div class="content incremental bullets" ref="deck/slides/26">
+<h1>"benevolent dictator" model</h1>
+
+<ul>
+<li>relatively small teams</li>
+<li>strong leadership</li>
+<li>community input</li>
+</ul>
+</div>
+</div><div class="slide" data-transition="none"><div class="content small incremental bullets" ref="deck/slides/27">
+<h1>how we design</h1>
+
+<ul>
+<li>deep subject matter expertise</li>
+<li>internal peer review</li>
+<li>feedback from R&amp;D, consultants, sales engineers</li>
+<li>distilling jira issues, forum posts</li>
+<li>conservative releases</li>
+<li>solve for real-world problems</li>
+</ul>
+</div>
+</div><div class="slide" data-transition="none"><div class="content small incremental bullets" ref="deck/slides/28">
+<h1>how we test</h1>
+
+<ul>
+<li>proper unit testing, integration testing</li>
+<li>use by other project teams</li>
+<li>use by our engineers in the field</li>
+<li>feedback from users against milestones and RCs</li>
+</ul>
+</div>
+</div><div class="slide" data-transition="none"><div class="content small incremental bullets" ref="deck/slides/29">
+<h1>who commits</h1>
+
+<ul>
+<li>meritocracy</li>
+<li>typically employees</li>
+<li>typically strong users we've hired</li>
+<li>increasing number of external committers</li>
+</ul>
+</div>
+</div><div class="slide" data-transition="none"><div class="content small incremental bullets" ref="deck/slides/30">
+<h1>how we release</h1>
+
+<ul>
+<li><code>snapshot-&gt;milestone-&gt;RC-&gt;GA</code></li>
+<li>relatively long release cycles</li>
+<li>plenty of feedback</li>
+<li>mostly successful model over time</li>
+</ul>
+</div>
+</div><div class="slide" data-transition="none"><div class="content" ref="deck/slides/31">
+<h1>every project is a little different</h1></div>
+</div><div class="slide" data-transition="none"><div class="content smaller incremental bullets" ref="deck/slides/32">
+<h1>every project is a little different</h1>
+
+<ul>
+<li>share process where it makes sense</li>
+<li>but do what's right for each team</li>
+<li>build systems are a good example</li>
+</ul>
+</div>
+</div><div class="slide" data-transition="none"><div class="content incremental bullets" ref="deck/slides/33">
+<h1>Example</h1>
+
+<ul>
+<li><code>spring-framework</code> issue management</li>
+</ul>
+</div>
+</div><div class="slide" data-transition="none"><div class="content incremental bullets" ref="deck/slides/34">
+<h1>Managing SPR JIRA</h1>
+
+<ul>
+<li><a href="https://jira.springsource.org/browse/SPR">https://jira.springsource.org/browse/SPR</a></li>
+<li>8800+ issues</li>
+<li>Daily triage</li>
+<li>Backlog versions</li>
+</ul>
+</div>
+</div><div class="slide" data-transition="none"><div class="content incremental bullets" ref="deck/slides/35">
+<h1><code>&lt;/overview&gt;</code></h1>
+
+<p class="notes">----------------------------</p></div>
+</div><div class="slide" data-transition="none"><div class="content subsection" ref="deck/slides/36">
+<h1>ways to get involved</h1></div>
+</div><div class="slide" data-transition="none"><div class="content incremental bullets" ref="deck/slides/37">
+<h1>ways to get involved</h1>
+
+<ul>
+<li>Use the projects!</li>
+<li>Report issues</li>
+<li>Help other users</li>
+<li>Track and test latest features</li>
+<li>Participate in user groups</li>
+<li>Contribute code and other fixes</li>
+</ul>
+</div>
+</div><div class="slide" data-transition="none"><div class="content incremental bullets" ref="deck/slides/38">
+<h1>first things first</h1>
+
+<ul>
+<li>using Spring projects</li>
+</ul>
+</div>
+</div><div class="slide" data-transition="none"><div class="content incremental bullets" ref="deck/slides/39">
+<h1>quick start</h1>
+
+<ul>
+<li>(for the impatient)</li>
+</ul>
+</div>
+</div><div class="slide" data-transition="none"><div class="content subsection bullets" ref="deck/slides/40">
+<h1>demo</h1>
+
+<ul>
+<li>STS template projects</li>
+</ul>
+</div>
+</div><div class="slide" data-transition="none"><div class="content bullets" ref="deck/slides/41">
+<h1>read the documentation</h1>
+
+<ul>
+<li><a href="http://www.springsource.org/documentation">http://www.springsource.org/documentation</a></li>
+</ul>
+</div>
+</div><div class="slide" data-transition="none"><div class="content small bullets incremental" ref="deck/slides/42">
+<h1>grab the artifacts</h1>
+
+<ul>
+<li>via distribution zips <a href="http://www.springsource.com/download/community">http://www.springsource.com/download/community</a></li>
+<li>via Maven Central (preferred) <a href="http://search.maven.org">http://search.maven.org</a></li>
+</ul>
+</div>
+</div><div class="slide" data-transition="none"><div class="content bullets incremental" ref="deck/slides/43">
+<h1>learn from samples and reference applications</h1></div>
+</div><div class="slide" data-transition="none"><div class="content bullets" ref="deck/slides/44">
+<h1>samples</h1>
+
+<ul>
+<li><a href="http://www.springsource.org/samples">http://www.springsource.org/samples</a></li>
+</ul>
+</div>
+</div><div class="slide" data-transition="none"><div class="content small bullets incremental" ref="deck/slides/45">
+<h1>reference applications</h1>
+
+<ul>
+<li>greenhouse</li>
+<li>live app <a href="http://greenhouse.springsource.org">http://greenhouse.springsource.org</a></li>
+<li>home <a href="http://www.springsource.org/greenhouse">http://www.springsource.org/greenhouse</a></li>
+<li>code <a href="https://github.com/SpringSource/greenhouse">https://github.com/SpringSource/greenhouse</a></li>
+</ul>
+</div>
+</div><div class="slide" data-transition="none"><div class="content bullets incremental" ref="deck/slides/46">
+<h1>Spring Roo</h1>
+
+<ul>
+<li><a href="http://www.springsource.org/spring-roo">http://www.springsource.org/spring-roo</a></li>
+<li>rapid application development</li>
+<li>Spring best practices built in</li>
+</ul>
+</div>
+</div><div class="slide" data-transition="none"><div class="content bullets incremental" ref="deck/slides/47">
+<h1>tutorials</h1>
+
+<ul>
+<li><a href="http://www.springsource.org/tutorials">http://www.springsource.org/tutorials</a></li>
+</ul>
+</div>
+</div><div class="slide" data-transition="none"><div class="content" ref="deck/slides/48">
+<h1>stay informed</h1></div>
+</div><div class="slide" data-transition="none"><div class="content bullets incremental" ref="deck/slides/49">
+<h1>blogs</h1>
+
+<ul>
+<li>team blog <a href="http://blog.springsource.org">http://blog.springsource.org</a></li>
+<li>news feed <a href="http://springsource.org">http://springsource.org</a></li>
+<li>RSS for both</li>
+</ul>
+</div>
+</div><div class="slide" data-transition="none"><div class="content smaller bullets" ref="deck/slides/50">
+<h1>newsletter</h1>
+
+<ul>
+<li><a href="http://www.springsource.com/newsevents/newsletter-registration">http://www.springsource.com/newsevents/newsletter-registration</a></li>
+</ul>
+</div>
+</div><div class="slide" data-transition="none"><div class="content bullets incremental" ref="deck/slides/51">
+<h1>Twitter</h1>
+
+<ul>
+<li><a href="http://twitter.com/springsource">http://twitter.com/springsource</a></li>
+<li><a href="http://twitter.com/springsource/projects">http://twitter.com/springsource/projects</a></li>
+<li><a href="http://twitter.com/springsource/employees">http://twitter.com/springsource/employees</a></li>
+</ul>
+</div>
+</div><div class="slide" data-transition="none"><div class="content bullets incremental" ref="deck/slides/52">
+<h1>Twitter</h1>
+
+<ul>
+<li><a href="http://twitter.com/springframework">http://twitter.com/springframework</a></li>
+<li><a href="http://twitter.com/springframework/team">http://twitter.com/springframework/team</a></li>
+</ul>
+</div>
+</div><div class="slide" data-transition="none"><div class="content" ref="deck/slides/53">
+<h1>report issues</h1></div>
+</div><div class="slide" data-transition="none"><div class="content bullets incremental" ref="deck/slides/54">
+<h1>improvements &amp; new features</h1>
+
+<ul>
+<li>share use cases</li>
+<li>vote!</li>
+</ul>
+</div>
+</div><div class="slide" data-transition="none"><div class="content bullets incremental" ref="deck/slides/55">
+<h1>bugs</h1>
+
+<ul>
+<li>steps to reproduce are critcal</li>
+<li>but reproduction <em>projects</em> get you &#x2665;</li>
+</ul>
+</div>
+</div><div class="slide" data-transition="none"><div class="content bullets incremental" ref="deck/slides/56">
+<h1>repro projects</h1>
+
+<ul>
+<li>simple as possible</li>
+<li>self-contained</li>
+<li>built with Maven or Gradle</li>
+</ul>
+</div>
+</div><div class="slide" data-transition="none"><div class="content smaller incremental bullets" ref="deck/slides/57">
+<h1><code>spring-framework-issues</code></h1>
+
+<ul>
+<li><a href="https://github.com/SpringSource/spring-framework-issues">https://github.com/SpringSource/spring-framework-issues</a></li>
+<li>repro projects, streamlined</li>
+<li>especially helpful for web application issues</li>
+</ul>
+</div>
+</div><div class="slide" data-transition="none"><div class="content incremental bullets" ref="deck/slides/58">
+<h1>help other users</h1>
+
+<ul>
+<li>(and get help when you need it too)</li>
+</ul>
+</div>
+</div><div class="slide" data-transition="none"><div class="content incremental bullets" ref="deck/slides/59">
+<h1><a href="http://forum.springsource.org">forum.springsource.org</a></h1>
+
+<ul>
+<li>thousands of users</li>
+<li>great way to build a presence in the community</li>
+</ul>
+</div>
+</div><div class="slide" data-transition="none"><div class="content" ref="deck/slides/60">
+<h1><a href="http://stackoverflow.com">stackoverflow.com</a></h1></div>
+</div><div class="slide" data-transition="none"><div class="content center" ref="deck/slides/61">
+<p><img src="./file/deck/stackoverflow-tags.png" alt="stackoverflow-tags.png"/></p></div>
+</div><div class="slide" data-transition="none"><div class="content" ref="deck/slides/62">
+<h1>track and test the latest features</h1></div>
+</div><div class="slide" data-transition="none"><div class="content bullets incremental" ref="deck/slides/63">
+<h1>snapshots, milestones, RCs</h1>
+
+<ul>
+<li>http://maven.springframework.org/snapshot</li>
+<li>http://maven.springframework.org/milestone</li>
+<li>http://maven.springframework.org/release</li>
+</ul>
+</div>
+</div><div class="slide" data-transition="none"><div class="content bullets incremental" ref="deck/slides/64">
+<ul>
+<li>all based on Amazon S3</li>
+<li>resolvable from Maven</li>
+<li>but not <em>browseable</em></li>
+<li><a href="http://shrub.appspot.com/maven.springframework.org/snapshot/">http://shrub.appspot.com</a></li>
+</ul>
+</div>
+</div><div class="slide" data-transition="none"><div class="content incremental bullets" ref="deck/slides/65">
+<h1>participate in user groups</h1>
+
+<ul>
+<li>google for 'spring user group' in your area</li>
+<li>java user groups often have spring content</li>
+<li>if they don't, consider giving a talk!</li>
+<li>interested in starting a group?</li>
+<li>contact <code>afitzgerald@vmware.com</code></li>
+</ul>
+</div>
+</div><div class="slide" data-transition="none"><div class="content" ref="deck/slides/66">
+<h1>contribute code and other fixes</h1></div>
+</div><div class="slide" data-transition="none"><div class="content incremental bullets" ref="deck/slides/67">
+<h1>first: why contribute?</h1>
+
+<ul>
+<li>scratch your own itch</li>
+<li>get to know Spring <em>really</em> well</li>
+<li>improve your skills</li>
+<li>street cred, yo.</li>
+</ul>
+</div>
+</div><div class="slide" data-transition="none"><div class="content subsection bullets" ref="deck/slides/68">
+<h1>demo</h1>
+
+<ul>
+<li>contributor attribution in git projects</li>
+</ul>
+</div>
+</div><div class="slide" data-transition="none"><div class="content incremental bullets" ref="deck/slides/69">
+<h1>kinds of contribution</h1>
+
+<ul>
+<li>typo fixes, documentation, cosmetic</li>
+<li>minor bug fixes and improvements</li>
+<li>major stuff</li>
+</ul>
+</div>
+</div><div class="slide" data-transition="none"><div class="content incremental bullets" ref="deck/slides/70">
+<h1>how to do it</h1>
+
+<ul>
+<li>and what to expect</li>
+</ul>
+</div>
+</div><div class="slide" data-transition="none"><div class="content incremental bullets" ref="deck/slides/71">
+<h1>the small stuff</h1>
+
+<ul>
+<li>typo? doco?</li>
+<li>just submit a patch or pull request</li>
+<li>(we'll talk about pull requests shortly)</li>
+</ul>
+</div>
+</div><div class="slide" data-transition="none"><div class="content" ref="deck/slides/72">
+<h1>the bigger stuff</h1></div>
+</div><div class="slide" data-transition="none"><div class="content incremental bullets" ref="deck/slides/73">
+<h1>it's about communication</h1>
+
+<ul>
+<li>create/comment on the issue</li>
+<li>express interest, start a conversation</li>
+<li>discuss possible implementations</li>
+<li>build trust</li>
+</ul>
+</div>
+</div><div class="slide" data-transition="none"><div class="content smaller incremental bullets" ref="deck/slides/74">
+<h1>study previous patches and pull requests</h1>
+
+<ul>
+<li>what kinds of submissions have been accepted before?</li>
+<li>code quality, formatting, etc</li>
+</ul>
+</div>
+</div><div class="slide" data-transition="none"><div class="content smaller subsection incremental bullets" ref="deck/slides/75">
+<h1>demo</h1>
+
+<ul>
+<li><code>spring-integration</code> pull requests</li>
+<li><a href="https://github.com/SpringSource/spring-integration/pulls">https://github.com/SpringSource/spring-integration/pulls</a></li>
+<li><a href="https://github.com/SpringSource/spring-integration/pull/153">https://github.com/SpringSource/spring-integration/pull/153</a></li>
+</ul>
+</div>
+</div><div class="slide" data-transition="none"><div class="content incremental commandline" ref="deck/slides/76">
+<h1>grab the source</h1>
+
+<pre><code><code class="command">$ svn checkout https://github.com/cbeams/spring-framework.git</code>
+<code class="result">...
+
+</code><code class="command">$ git clone https://github.com/cbeams/spring-framework.git</code>
+<code class="result">...
+</code></code></pre></div>
+</div><div class="slide" data-transition="none"><div class="content" ref="deck/slides/77">
+<h1>git <code>||</code> svn</h1>
+
+<br/><br/>
+
+
+<br/><br/>
+
+
+<br/><br/>
+
+
+<br/><br/>
+
+
+<br/><br/>
+
+
+<br/><br/>
+
+
+<br/><br/>
+
+
+<br/><br/>
+
+
+<br/><br/>
+
+
+<br/><br/>
+
+
+<br/>
+
+
+</div>
+</div><div class="slide" data-transition="fade"><div class="content incremental bullets" ref="deck/slides/78">
+<h1>git <code>&amp;&amp;</code> svn</h1>
+
+<ul>
+<li>GitHub supports both!</li>
+<li><a href="https://github.com/blog/966-improved-subversion-client-support">https://github.com/blog/966-improved-subversion-client-support</a></li>
+<li>your choice</li>
+</ul>
+</div>
+</div><div class="slide" data-transition="none"><div class="content incremental bullets" ref="deck/slides/79">
+<h1>look at the commit log</h1>
+
+<ul>
+<li>plan to emulate it</li>
+</ul>
+</div>
+</div><div class="slide" data-transition="none"><div class="content small subsection incremental bullets" ref="deck/slides/80">
+<h1>demo</h1>
+
+<ul>
+<li><code>spring-framework</code> commit log</li>
+<li><a href="http://progit.org/book/ch5-2.html#commit_guidelines">http://progit.org/book/ch5-2.html#commit_guidelines</a></li>
+</ul>
+</div>
+</div><div class="slide" data-transition="none"><div class="content small incremental bullets" ref="deck/slides/81">
+<h1>get to know the project build system</h1>
+
+<ul>
+<li>Ant ("spring-build")</li>
+<li>Gradle ("spring-build-gradle")</li>
+<li>Maven (individual to each project)</li>
+<li>S2 team blog: <a href="http://blog.springsource.com/2009/03/03/building-spring-3/">building Spring 3</a></li>
+</ul>
+</div>
+</div><div class="slide" data-transition="none"><div class="content small incremental bullets" ref="deck/slides/82">
+<h1>give it a shot!</h1>
+
+<ul>
+<li>stay in communication with project team</li>
+<li>not every contribution will necessarily make it</li>
+<li>process should be rewarding in any case</li>
+</ul>
+</div>
+</div><div class="slide" data-transition="none"><div class="content small incremental bullets" ref="deck/slides/83">
+<h1><em>(and don't forget tests!)</em></h1></div>
+</div><div class="slide" data-transition="none"><div class="content incremental bullets" ref="deck/slides/84">
+<h1>in any case</h1>
+
+<ul>
+<li>expect your code to be changed</li>
+</ul>
+</div>
+</div><div class="slide" data-transition="none"><div class="content center incremental bullets" ref="deck/slides/85">
+<h1>"Juergenization"</h1>
+
+<ul>
+<li><img src="./file/deck/juergenization_1.png" alt="juergenization_1.png"/></li>
+<li><img src="./file/deck/juergenization_2.png" alt="juergenization_2.png"/></li>
+</ul>
+</div>
+</div><div class="slide" data-transition="none"><div class="content small incremental bullets" ref="deck/slides/86">
+<h1>legal stuff</h1>
+
+<ul>
+<li>You may be asked to sign our CLA</li>
+<li>SpringSource <a href="https://support.springsource.com/spring_committer_signup">Contributor License Agreement</a></li>
+</ul>
+</div>
+</div><div class="slide" data-transition="none"><div class="content small incremental bullets" ref="deck/slides/87">
+<h1>contributing through external projects</h1>
+
+<ul>
+<li>Example: Spring Social core &amp; Spring Social Foursquare</li>
+<li><a href="https://github.com/springsource/spring-social">https://github.com/springsource/spring-social</a></li>
+<li><a href="https://github.com/springsource/spring-social%0Ahttps://github.com/mattupstate/spring-social-foursquare">https://github.com/mattupstate/spring-social-foursquare</a></li>
+</ul>
+
+
+<p class="notes">----------------------------</p></div>
+</div><div class="slide" data-transition="none"><div class="content subsection incremental bullets" ref="deck/slides/88">
+<h1>sneak preview</h1>
+
+<ul>
+<li>getting involved 2.0</li>
+</ul>
+</div>
+</div><div class="slide" data-transition="none"><div class="content incremental bullets" ref="deck/slides/89">
+<h1>source control improvements</h1>
+
+<ul>
+<li>everything on GitHub</li>
+</ul>
+</div>
+</div><div class="slide" data-transition="none"><div class="content" ref="deck/slides/90">
+<h1>pull requests are...</h1></div>
+</div><div class="slide" data-transition="none"><div class="content" ref="deck/slides/91">
+<h1>the new patch</h1></div>
+</div><div class="slide" data-transition="none"><div class="content" ref="deck/slides/92">
+<h1>the new code review</h1></div>
+</div><div class="slide" data-transition="none"><div class="content subsection bullets" ref="deck/slides/93">
+<h1>demo</h1>
+
+<ul>
+<li>pull request / fork and edit</li>
+</ul>
+</div>
+</div><div class="slide" data-transition="none"><div class="content bullets incremental" ref="deck/slides/94">
+<h1>next steps</h1>
+
+<ul>
+<li>complete the migration of projects</li>
+<li><code>spring-framework</code> post 3.1 GA</li>
+<li>only a few remaining after that</li>
+</ul>
+</div>
+</div><div class="slide" data-transition="none"><div class="content smaller bullets incremental" ref="deck/slides/95">
+<h1>integrate pull requests into our JIRA workflow</h1>
+
+<ul>
+<li><a href="http://seam-framework.2283336.n4.nabble.com/git-pull-request-JIRA-workflow-td3272708.html">http://seam-framework.2283336.n4.nabble.com/git-pull-request-JIRA-workflow-td3272708.html</a></li>
+<li><a href="http://community.jboss.org/wiki/GuideToUsePullRequestsWithGitHubAndJIRA">http://community.jboss.org/wiki/GuideToUsePullRequestsWithGitHubAndJIRA</a></li>
+</ul>
+</div>
+</div><div class="slide" data-transition="none"><div class="content bullets incremental" ref="deck/slides/96">
+<h1>improved artifact management</h1>
+
+<ul>
+<li>Artifactory</li>
+<li><a href="http://repo.springsource.org">http://repo.springsource.org</a></li>
+</ul>
+</div>
+</div><div class="slide" data-transition="none"><div class="content subsection bullets incremental" ref="deck/slides/97">
+<h1>demo: repo.springsource.org</h1>
+
+<ul>
+<li>unified search</li>
+<li>put a watch on anytihng</li>
+<li>license information</li>
+<li>transitive resolution</li>
+<li>migration path from s3 repos</li>
+</ul>
+</div>
+</div><div class="slide" data-transition="none"><div class="content bullets incremental" ref="deck/slides/98">
+<h1>streamline CLA process</h1>
+
+<ul>
+<li>deep integration via GitHub hooks API</li>
+<li>CLA database</li>
+<li>revised CLA agreement, web-only form</li>
+</ul>
+</div>
+</div><div class="slide" data-transition="none"><div class="content subsection bullets" ref="deck/slides/99">
+<h1>Thanks!</h1>
+
+<ul>
+<li><a href="http://twitter.com/cbeams"><code>@cbeams</code></a></li>
+<li>this presentation on the web: <a href="http://cbeams.github.com/spring-community-101">http://cbeams.github.com/spring-community-101</a></li>
+</ul>
+</div>
+</div></div>
+
+</body>
+</html>
